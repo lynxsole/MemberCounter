@@ -1,0 +1,117 @@
+ @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Vina+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Vina+Sans&display=swap');
+
+ *{
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Vina Sans', cursive;
+ }
+
+ body{
+  margin: 0;
+  justify-content: center;
+  background-color: 	#282b30;
+ }
+
+ nav{
+   justify-content: center;
+   display: none;
+   width: 100%;
+   top: 0;
+ }
+
+ .navContent{
+   background-color: red;
+   border-radius: 30px 30px 30px 30px;
+   height: 50px;
+   width: 450px;
+ }
+
+.navBtn{
+   cursor: pointer;
+   font-size: 2rem;
+   margin-left: 3rem;
+   transition: 0.5s;
+}
+
+.navBtn:hover{
+   color: white;
+   transition: 0.5s;
+}
+
+ li{
+   list-style: none;
+   display: inline-flex;
+ }
+
+ section{
+   width: 100%;
+   height: auto;
+   justify-content: center;
+ }
+
+ .Container{
+   justify-items: center;
+   margin-top: 20rem;
+   height: 20rem;
+   width: 100%;
+ }
+
+ .welcomeText{
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Vina Sans', cursive;
+   color: white;
+   font-size: 4.5rem;
+   font-weight: 200;
+   text-align: center;
+ }
+
+ .welcomeDesc{
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Vina Sans', cursive;
+   color: white;
+   font-size: 1.5rem;
+   font-weight: 200;
+   text-align: center;
+ }
+
+ .inputText{
+   display: inline-block;
+   align-items: center;
+   position: absolute;
+   height: auto;
+   width: 100%;
+ }
+
+ #enterId{
+   height: 30px;
+   width: 250px;
+ }
+
+ .pictureIcon{
+   height: 100px;
+   width: 100px;
+ }
+
+ .serveInfo{
+   justify-content: center;
+   color: white;
+   margin-top: 5rem;
+   height: 50px;
+   width: 100%;
+   display: inline-flex;
+ }
+
+ .Actu{
+   display: inline-block;
+   text-align: center;
+   font-size: 2.5rem;
+ }
+
+ .Member, .Helper, .Modo, .fondateur{
+   margin-left: 2.5rem;
+ }
+
+ .counter{
+   border-bottom: solid white;
+ }
+

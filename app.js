@@ -19,7 +19,7 @@ function getId()
             document.getElementById('Warnig').style.color = "#C40227";
             document.getElementById('mc').style.color = "#C40227";
             document.getElementById('Warnig').innerHTML = "Une erreur C'est produit";
-            document.getElementById('mc').innerHTML = "erreur";
+            document.getElementById('mc').innerHTML = "!";
         }
     };  
 

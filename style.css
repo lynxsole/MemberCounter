@@ -10,6 +10,7 @@
   margin: 0;
   justify-content: center;
   background-color: 	#282b30;
+  overflow-x: hidden;
  }
 
  nav{
@@ -51,35 +52,38 @@
 
  .Container{
    justify-items: center;
-   margin-top: 20rem;
+   margin-top: 15rem;
    height: 20rem;
    width: 100%;
  }
 
  .welcomeText{
-   font-family: 'Oswald', sans-serif;
-   font-family: 'Vina Sans', cursive;
-   color: white;
-   font-size: 4.5rem;
-   font-weight: 200;
-   text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Vina Sans', cursive;
+  color: white;
+  font-size: 4.5rem;
+  font-weight: 200;
+  text-align: center;
  }
 
  .welcomeDesc{
-   font-family: 'Oswald', sans-serif;
-   font-family: 'Vina Sans', cursive;
-   color: white;
-   font-size: 1.5rem;
-   font-weight: 200;
-   text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Vina Sans', cursive;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-align: center;
  }
 
  .inputText{
-   display: inline-block;
-   align-items: center;
-   position: absolute;
-   height: auto;
-   width: 100%;
+  position: absolute;
+  display: block;
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-size: larger;
  }
 
  #enterId{
@@ -108,7 +112,7 @@
  }
 
  .Member, .Helper, .Modo, .fondateur{
-   margin-left: 2.5rem;
+   text-align: center;
  }
 
  .counter{

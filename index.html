@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="content\img\fileIcon.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="response.css">
     <title>Online Member</title>
 </head>
 <body>
@@ -23,14 +24,13 @@
             <h2 class="welcomeText">
                 Online Member
             </h2>
-            <p class="welcomeDesc">
+            <p class="welcomeDesc" id="Warnig">
                 Entre l'id du serveur discord
             </p>
             <div class="inputText">
-                <div class="icon">
-                    <img class="pictureIcon" src="content\img\fileIcon.svg" alt="" srcset="">
-                </div>
+                <!-- <img class="pictureIcon" src="content\img\fileIcon.svg" alt="" srcset=""> -->
                 <input type="text" placeholder="Discord id" name="" id="enterId">
+                <button onclick="getId()">Envoyer</button>
             </div>
         </div>
 
@@ -45,7 +45,7 @@
                     </span>
                 </div>
             </div>
-            <div class="Helper">
+            <!-- <div class="Helper">
                 <div class="Actu">
                     <span>
                         Helper en ligne :
@@ -74,10 +74,11 @@
                         0
                     </span>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
-    <script src="index.js"></script>
+    <script src="app.js"></script>
+    
 </body>
 </html>

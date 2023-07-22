@@ -1,0 +1,44 @@
+@media screen and (max-width: 700px) {
+    .Container{
+        justify-items: center;
+        margin-top: 10rem;
+        height: 20rem;
+        width: 100%;
+    }
+
+    .welcomeText{
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Vina Sans', cursive;
+        color: white;
+        font-size: 3.5rem;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    .welcomeDesc{
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .serveInfo{
+        color: white;
+        margin-top: 0rem;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        display: block;
+      }
+
+      .Member, .Helper, .Modo, .fondateur{
+        margin-left: 0rem;
+      }
+
+      section{
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+        justify-content: center;
+      }
+  }

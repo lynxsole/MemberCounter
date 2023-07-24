@@ -76,8 +76,8 @@
  }
 
  .inputText{
-  position: absolute;
-  display: block;
+  cursor: pointer;
+  display: inline-block;
   height: 80px;
   width: 100%;
   text-align: center;

@@ -1,5 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Vina+Sans&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Vina+Sans&display=swap');
+
 
  *{
    font-family: 'Oswald', sans-serif;
@@ -112,6 +112,7 @@
  }
 
  .Member, .Helper, .Modo, .fondateur{
+  margin: auto 15px;
    text-align: center;
  }
 
